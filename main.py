@@ -1,3 +1,4 @@
+"""
 print("Hello World!")
 a = "Hello World!"
 print(a)
@@ -24,3 +25,36 @@ for i in (arr):
 n = 10
 m = n+3
 print(m)
+"""
+n=1
+g=1
+while n<10:
+    while g<10:
+        print(n*g,end='\t')
+        g+=1
+    n+=1
+    g=1
+    print('\n')
+
+
+c1='hello'
+for c in c1:
+    print(c,end='\t')
+print('\n')
+
+c1 = 'ab'
+c2 = 'cd'
+for c in c1:
+    for s in c2:
+        print(f'{c}{s}')
+
+for i in [1,2,3,4]:
+    if i==3:
+        break
+    print(f"Number: {i}")
+
+for i in [1,2,3,4]:
+    if i==3:
+        continue
+    print(f"Number: {i}")
+
