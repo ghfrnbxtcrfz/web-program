@@ -47,7 +47,7 @@ class Student:
         print(f"{self.name} studies at {self.faculty.name}")
 
 
-class Employee:                          # ← на уровне модуля, не внутри Student
+class Employee:                          
     def __init__(self, name):
         self.__name = name
         self.__jobs = []
